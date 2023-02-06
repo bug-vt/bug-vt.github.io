@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Bug L</title>
+    <title>Bug Lee</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +26,7 @@
           <img class="headshot" src="images/headshot.jpg" alt="Bug headshot"/>
           <h1>Bug Lee</h1>
           <p class="bio">
-             I am passionate about learning abstraction and inner working
-             of computing technologies we take granted in our daily life. This
-             includes programming language, computer system, algorithms, etc. My
-             current interest is on method for more effective debugging and
-             testing software. 
+I am passionate about learning abstraction and the science behind the computing technologies we take for granted in our daily life. My favorite topics are the compiler, computer systems, and algorithms. Always been fascinated that how we precisely communicate what we want to a computer through science, not magic!
           </p>
           <div class="buttonBox">
             <a class="myButton" href="#education">Education</a>
@@ -49,92 +45,120 @@
             Master of Engineering in Computer Science, May 2024
           </p>
           <h1>Coursework</h1>
-          Data Structures and Algorithms, Computer Systems, Systems & Networking Capstone, Data and Algorithm Analysis, Scripting language design & implementation, Network Architecture & programming, Video Game Design & Engineering, Artificial Intelligence & Engineering application, Principles of Computer Architecture
+Data Structures and Algorithms, Computer Systems, Systems & Networking Capstone,
+Data and Algorithm Analysis, Scripting language design & implementation, Network
+Architecture & Programming, Video Game Design & Engineering, Artificial
+Intelligence & Engineering application, Principles of Computer Architecture
         </div>
       </div>
 
       <main id="projects">
         <div class="project">
-          <img src="images/video_game.png" alt="Video game controller"/>
+          <img src="images/prog_lang_logo.png" alt="Programing language"/>
           <h2>
-              <a href="https://medium.com/@bug19/play-hard-study-hard-can-a-coding-game-do-both-b7006dc6d2d" target="_blank" class="linking">
+              <a href="https://github.com/bug-vt/custom_prog_lang" target="_blank" class="linking">
                  Custom Programming Language (Fall 2022)
               </a> 
           </h2>
           <p class="description">
-          Implemented Virtual Machine, Assembler, and Compiler. VM mimics generic CPU, which read bytecode and then execute one instruction every cycle.
-          Assembler acts as a middle end and back end, which translates assembly code to bytecode. 
-          Compiler consists of lexer, parser, semantic analyzer, and code emitter to acts as a front end. Compiler translates source code to assembly code.
-          <a href="https://medium.com/@bug19/play-hard-study-hard-can-a-coding-game-do-both-b7006dc6d2d" target="_blank" class="linking">Found out more here!</a></p>            
+          Built a C-like (C subset) programming language from scratch.
+          Implemented Virtual Machine, Assembler, and Compiler. VM mimics
+          generic CPU, which reads bytecode and then executes one instruction
+          every cycle. Assembler acts as a back end, which translates assembly
+          code to bytecode. The compiler consists of a lexer, parser, semantic
+          analyzer, and code emitter to translate sourinto assembly code.
         </div>
 
         <div class="project">
-          <img src="images/food_app.png" alt="Food ordering application"/>
+          <img src="images/location_logo.png" alt="Shortest path from A to B"/>
           <h2>
-            <a href="https://soundcloud.com/s-hevener4/tim-food-ordering-apps"
+            <a href="https://github.com/bug-vt/hierarchical_path_finding"
                 target="_blank" class="linking">
               Hierarchical Path-Finding (Fall 2022) 
             </a>
           </h2>
           <p class="description">
-          Implemented and analyzed shortcoming of Dijkstra and A* algorithm in modern
-          applicatino with big graph.
-          Reduced complexity of the problem by dividing the graph into regions and then
-          finding regional shortest path.
+          Implemented and analyzed shortcomings of Dijkstra and A* algorithm in
+          modern applications wiraphs. Reduced complexity of the problem by
+          dividing the graph into regions and then finding the regional shortest
+          path.
           </p>
         </div>
 
         <div class="project">
-          <img src="images/food_app.png" alt="Food ordering application"/>
+          <img src="images/cable.jpg" alt="Reliable transport"/>
           <h2>
-            <a href="https://soundcloud.com/s-hevener4/tim-food-ordering-apps"
+            <a href="https://github.com/bug-vt/simple_tcp"
+                target="_blank" class="linking">
+              Simple TCP (Fall 2022) 
+            </a>
+          </h2>
+          <p class="description">
+The project was divided into two parts. The first part was to implement a simple
+transport protocol that provides reliable datagram service. The second part was 
+to implement a TCP Reno-like congestion control algorithm.
+          </p>
+        </div>
+
+        <div class="project">
+          <img src="images/pintos.jpg" alt="Pintos"/>
+          <h2>
+            <a href="https://git.cs.vt.edu/bug19/pintos-2017"
                 target="_blank" class="linking">
               Modeling Unix in PintOS (Spring 2022)
             </a>
           </h2>
           <p class="description">
-Added user processes, system calls, virtual memory, buffer cache, file
-extension, and subdirectories to support fundemental OS functionalities.  
-Added pipe and shell to model Unix inside PintOS.
+          Added user processes, system calls, virtual memory, buffer cache, file
+          extension, and subdirect support fundamental OS functionalities. Added
+          pipe and shell to model Unix inside PintOS.
           </p>
         </div>
 
         <div class="project">
           <img src="images/haunted_park.png" alt="Haunted park game logo"/>
           <h2>
-            <a href="https://bug-vt.github.io/ece4525_hauntedPark/"
+            <a href="https://github.com/bug-vt/the_haunted_park"
                 target="_blank" class="linking"> 
               The Haunted Park (Fall 2021)
             </a>
           </h2>
           <p class="description">
-The objective of the game is to escape the park by finding the escape route and
-the keys that are randomly placed somewhere in the game world to unlock the
-escape route. However, there are ghosts scattered around the map and the player
-must avoid them. When a ghost sees the player, the ghost will chase him/her. The
-player can distract a ghost by throwing a rock. The player wins when he/she
-successfully escapes and the score will be based on the time it took to escape.
-<a href="https://bug-vt.github.io/ece4525_hauntedPark/" target="_blank" class="linking">The game</a> will utilize a ray-casting algorithm to give the user illusion of a 3-D world.
+          The objective of the game is to escape the park by finding the escape
+          route ands that are randomly placed somewhere in the game world to
+          unlock the escape route. However, there are ghosts scattered around
+          the map and the pst avoid them. When a ghost sees the player, the
+          ghost will chase him/her. The player can distract a ghost by throwing
+          a rock. The player wins when he/she successfully escapes and the score
+          will be based on the time it took to escape. The game utilizes a
+          ray-casting algorithm to give the player illusion of a 3-D world.
           </p>
         </div>
 
         <div class="project">
-          <img src="images/food_app.png" alt="Food ordering application"/>
+          <img src="images/sift_detector_result.png" alt="Sift detector result"/>
           <h2>
-            <a href="https://soundcloud.com/s-hevener4/tim-food-ordering-apps"
+            <a href="https://github.com/bug-vt/openCV_junior"
                 target="_blank" class="linking">
-               (Fall 2021)
+               Implementation and Analysis of Correspondence Functions used in
+               Computer Vision (Fall 2021)
             </a>
           </h2>
           <p class="description">
-Added user processes, system calls, virtual memory, buffer cache, file
-extension, and subdirectories to support fundemental OS functionalities.  
-Added pipe and shell to model Unix inside PintOS.
+          As a student in the Computer Vision course, our goal is to
+          gain a concrete idea of she well-known topics in computer vision by
+          creating our own SIFT library from scratch. Topics include SIFT
+          detector, SIFT descriptor, and nearest-neighbor matching which lay the
+          foundation for many correspondence problems in computer vision. The
+          focus of the project is not to create a library that can compete with
+          a known library such as OpenCV, but to gainr understanding of existing
+          libraries and the ability to implement ideas for an existing/future 
+          computer language that may not have support for computer vision application.
           </p>
         </div>
 
         <div class="project">
-          <img src="images/video_screenshot.png" alt="Video camera"/>
+          <img src="images/video_screenshot.png" alt="Fight scene"/>
           <h2>
             <a href="https://youtu.be/ej7zD7dl2Ck"
                 target="_blank" class="linking">
@@ -143,7 +167,7 @@ Added pipe and shell to model Unix inside PintOS.
           </h2>
           <p class="description">
 I worked with various sports teams where one of my main jobs was to distribute and collect water bottles for practices/games. Unfortunately, many water bottles get lost by the end of the season since players simply forget to return them. 
-Instead of giving a boring lecture to players and coaches, my team made a skit to express our frustration in a fun way. We used video games as a medium to connect with the audience and hopefully, some players will remember to return the water bottles by remembering the skit.
+Instead of giving a boring lecture to players and coaches, my team made a skit to express our frustration in a fun way. We used video games as a medium to connect with the audience and hopefully, some players remembered to return the water bottles by remembering the skit.
           </p>
         </div>
       </main>
