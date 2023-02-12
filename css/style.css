@@ -86,15 +86,6 @@ img {
 }
 
 
-a.linking:link {
-  color: green;
-}
-
-a.linking:visited {
-  color: #155400;
-}
-
-
 .description {
   font-family: Josefin Sans, sans-serif;
   font-size: 16px;
